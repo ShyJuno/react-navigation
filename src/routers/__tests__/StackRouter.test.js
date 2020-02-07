@@ -4,7 +4,7 @@ import React from 'react';
 
 import StackRouter from '../StackRouter';
 import * as StackActions from '../StackActions';
-import * as NavigationActions from '../../NavigationActions';
+import * as NavigationActions from '../../NavigationActions.ts';
 import { _TESTING_ONLY_normalize_keys } from '../KeyGenerator.ts';
 
 beforeEach(() => {
@@ -1081,7 +1081,10 @@ describe('StackRouter', () => {
       key: 'StackKey',
       index: 1,
       isTransitioning: true,
-      routes: [{ key: 'a', routeName: 'Foo' }, { key: 'b', routeName: 'Foo' }],
+      routes: [
+        { key: 'a', routeName: 'Foo' },
+        { key: 'b', routeName: 'Foo' },
+      ],
     };
     const outputState = router.getStateForAction(
       {
@@ -1108,7 +1111,10 @@ describe('StackRouter', () => {
       key: 'StackKey',
       index: 1,
       isTransitioning: true,
-      routes: [{ key: 'a', routeName: 'Foo' }, { key: 'b', routeName: 'Foo' }],
+      routes: [
+        { key: 'a', routeName: 'Foo' },
+        { key: 'b', routeName: 'Foo' },
+      ],
     };
     const outputState = router.getStateForAction(
       {
