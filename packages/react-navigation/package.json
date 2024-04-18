@@ -24,8 +24,8 @@
     "react-native": "*"
   },
   "dependencies": {
-    "@react-navigation/core": "^3.7.9",
-    "@react-navigation/native": "^3.8.4"
+    "@react-navigation/core": "git@github.com:ShyJuno/react-navigation.git",
+    "@react-navigation/native": "git@github.com:ShyJuno/react-navigation.git"
   },
   "devDependencies": {
     "@types/react": "^16.9.53",
