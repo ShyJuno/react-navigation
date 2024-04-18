@@ -22,8 +22,7 @@
     "test": "jest",
     "prerelease": "yarn lerna run clean",
     "release": "yarn lerna publish",
-    "example": "yarn --cwd example",
-    "postinstall": "cp -r node_modules/react-navigation/packages/react-navigation/* node_modules/react-navigation/"
+    "example": "yarn --cwd example"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.12.1",
