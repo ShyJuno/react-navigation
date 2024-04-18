@@ -24,8 +24,8 @@
     "react-native": "*"
   },
   "dependencies": {
-    "@react-navigation/core": "git@github.com:ShyJuno/react-navigation.git",
-    "@react-navigation/native": "git@github.com:ShyJuno/react-navigation.git"
+    "@react-navigation/core": "git@github.com:ShyJuno/react-navigation.git#feature/rencar",
+    "@react-navigation/native": "git@github.com:ShyJuno/react-navigation.git#feature/rencar"
   },
   "devDependencies": {
     "@types/react": "^16.9.53",
